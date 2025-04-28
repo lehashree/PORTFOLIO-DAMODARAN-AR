@@ -1,0 +1,139 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f0e3;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #654321;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  margin-top: 30px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-column {
+  background-color: #c4a484;
+  border-radius: 10px;
+}
+
+.right-column {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.references ul {
+  padding-left: 0;
+}
+
+.edu-item, .exp-item, .cert-item {
+  margin-bottom: 20px;
+}
+/* Language section box style */
+.language-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.language-box {
+  background-color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #654321;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Skill circle style */
+.skills {
+  margin-top: 30px;
+}
+
+.skill-circle {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background: #654321;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
